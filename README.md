@@ -1,6 +1,6 @@
 # 🚀 Interpretador JavaScript
 
-Um interpretador (simulador de execução) para programas JavaScript desenvolvido como projeto da disciplina **Estruturas de Dados II** na **Universidade do Oeste de Santa Catarina (UNOESTE)**.
+Um interpretador (simulador de execução) para programas JavaScript desenvolvido como projeto da disciplina **Estruturas de Dados II** na **Universidade do Oeste Paulista (UNOESTE)**.
 
 ## 📋 Sobre o Projeto
 
@@ -307,7 +307,7 @@ Sistema baseado em **Lista Generalizada** que:
 
 **Disciplina**: Estruturas de Dados II  
 **Professor**: Francisco Assis da Silva  
-**Instituição**: UNOESTE - Universidade do Oeste de Santa Catarina
+**Instituição**: UNOESTE - Universidade do Oeste Paulista
 
 ### Entregáveis
 - [ ] Código-fonte completo
