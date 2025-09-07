@@ -38,3 +38,13 @@ void pop (PilhaVariaveis **pilha, char *variavel, char *valor, pProgama *ponteir
         free(aux);
     }
 }
+
+
+void limparPilha(PilhaVariaveis **pilha) {
+    PilhaVariaveis *aux;
+    while(!isEmpty(*pilha)) {
+        aux = (*pilha);
+        *pilha = (* pilha)->prox;
+        free(aux);
+    }
+}
