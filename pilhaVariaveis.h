@@ -9,7 +9,7 @@ void init (PilhaVariaveis **pilha) {
     *pilha = NULL;
 }
 
-void push (pilhaVariaveis **pilha, char *variavel, char *valor, pProgama *ponteiro) {
+void push (PilhaVariaveis **pilha, char *variavel, char *valor, pProgama *ponteiro) {
     PilhaVariaveis *nova = malloc(sizeof(PilhaVariaveis));
     strcpy(nova->variavel, variavel);
     strcpy(nova->valor, valor);
@@ -25,7 +25,7 @@ char isEmpty (PilhaVariaveis *pilha) {
 PilhaVariaveis top (PilhaVariaveis *pilha) {
     if(!isEmpty(pilha)) return *pilha;
 
-    return -1;
+    return NULL;
 }
 
 void pop (PilhaVariaveis **pilha, char *variavel, char *valor, pProgama *ponteiro) {
