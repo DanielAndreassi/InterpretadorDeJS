@@ -5,7 +5,7 @@ struct registroLista {
 
 union infoLista {
     char info[20];
-    struct RegistroLista lista;
+    struct RegistroLista *lista;
 };
 
 struct listagen {

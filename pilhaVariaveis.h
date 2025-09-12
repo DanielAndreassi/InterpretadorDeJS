@@ -29,7 +29,7 @@ PilhaVariaveis top (PilhaVariaveis *pilha) {
 }
 
 void pop (PilhaVariaveis **pilha, char *variavel, char *valor, pProgama *ponteiro) {
-    PilhaVariaveis *aux;
+    PilhaVariaveis *aux = (*pilha)->prox;
     if(!isEmpty(*pilha)) {
         *variavel = (*pilha)->variavel;
         *valor = (*pilha)->valor;

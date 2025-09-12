@@ -4,7 +4,7 @@
 #include <ctype.h>
 // #include <conio2.h> 
 //#include "conio_linux.h"
-//#include "listagen.h"
+#include "listagen.h"
 #include "pilhaVariaveis.h"
 //#include "fila.h"
 //pode ser declarado mais TAD's caso tenha necessidade
